@@ -34,8 +34,8 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
           <link
-            href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Six+Caps&family=Poppins&display=swap"
-            rel=" stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins&family=Six+Caps&display=swap"
+            rel="stylesheet"
           />
         </Head>
         <body>
