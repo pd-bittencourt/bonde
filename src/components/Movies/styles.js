@@ -59,5 +59,16 @@ export const Container = styled.section`
   .movie-content {
     max-width: 700px;
     width: 80%;
+    p {
+      transition: all 0.2s ease;
+      opacity: 1;
+
+      @media (min-width: ${breakpoints.md}) {
+        opacity: 0;
+      }
+    }
+    &:hover p {
+      opacity: 1;
+    }
   }
 `;
