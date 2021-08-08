@@ -18,6 +18,7 @@ export const Container = styled.section`
     @media (min-width: ${breakpoints.md}) {
       flex-direction: row;
       align-items: flex-start;
+      justify-content: center;
       width: 80%;
       max-width: 1200px;
       padding-left: 30px;

@@ -1,38 +1,38 @@
+import Link from "next/link";
+import { useEffect, useState } from "react";
+
 import { Container } from "./styles";
 
-const movies = [
-  {
-    title: "Onde é Nihon?",
-    image: "/imgs/where_is_nihon-3.jpg",
-  },
-  {
-    title: "As Origens",
-    image: "/imgs/as_origens_2.jpg",
-  },
-  {
-    title: "Álbum de Memórias",
-    image: "/imgs/where_is_nihon-3.jpg",
-  },
-  {
-    title: "Tiro de Misericórdia",
-    image: "/imgs/misericordia_1.jpg",
-  },
-];
-
 function Movies() {
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    fetch("/movies.json")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        setMovies(data);
+      });
+  }, []);
+
   return (
     <Container>
-      {movies.map((movie, index) => {
+      {movies.map((movie) => {
         return (
           <div
-            key={index}
+            key={movie.id}
+            id={movie.slug}
             className="movie"
-            style={{ backgroundImage: `url(${movie.image})` }}
+            style={{
+              backgroundImage: `linear-gradient(to bottom, #0000, #0009), url(${movie.image})`,
+            }}
           >
-            <a href="#0" className="movie-content">
-              <h2>{movie.title}</h2>
-              <p>INFO</p>
-            </a>
+            <Link href={movie.link}>
+              <a className="movie-content">
+                <h2>{movie.title}</h2>
+                <p>INFO</p>
+              </a>
+            </Link>
           </div>
         );
       })}

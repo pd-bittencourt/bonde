@@ -36,6 +36,10 @@ export const FooterContainer = styled.footer`
       font-size: 1.5rem;
       color: ${baseColors.grayDark};
 
+      &:hover {
+        color: ${baseColors.grayLight};
+      }
+
       @media (min-width: ${breakpoints.md}) {
         font-size: 3rem;
       }

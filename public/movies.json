@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "title": "Onde é Nihon?",
+    "slug": "onde_e_nihon",
+    "image": "/imgs/where_is_nihon-3.jpg",
+    "link": "/movies/onde_e_nihon",
+    "genre": "Documentário",
+    "lenght": 90,
+    "overview": "Ao deixar sua terra natal, a documentarista Inara Chayamiti começa a investigar sua identidade, marcada pela saga da migração nipo-brasileira. Ela embarca em uma jornada agridoce com sua família em busca de sua herança cultural, e ao mesmo tempo, descobre o que significa pertencer “no meio”: vista como japonesa demais no Brasil, pouco japonesa na comunidade, nada japonesa no Japão e agora, uma forasteira nos Países Baixos.",
+
+    "director": ["Inara Chayamiti"],
+    "producer": ["Lorena Bondarovsky"],
+    "impact_producer": ["Luiza de Paiva", "Inara Chayamiti"],
+    "impact_strategist": ["João Martinho"],
+    "photographer": ["Kiyoshi Chayamiti"],
+    "coproduction": ["Chayamiti Filmes"]
+  },
+  {
+    "id": 2,
+    "title": "As Origens",
+    "slug": "as_origens",
+    "image": "/imgs/as_origens_2.jpg",
+    "link": "/movies/onde_e_nihon",
+    "genre": "Ficção",
+    "lenght": 100,
+    "overview": "Expulsa de sua cidade no interior de São Paulo por seu espírito contestador, a jovem professora Niéde Guidón se torna pupila de um excêntrico arqueólogo. Mas ela precisa superar seu mestre para fazer a maior descoberta pré-histórica do Brasil.",
+
+    "director": ["Kelly Cristina Spinelli"],
+    "screenwriter": ["Kelly Cristina Spinelli"],
+    "producer": ["Lorena Bondarovsky"]
+  },
+  {
+    "id": 3,
+    "title": "Álbum de Memórias",
+    "slug": "album_de_memorias",
+    "image": "/imgs/album_memorias_1.jpeg",
+    "link": "/movies/onde_e_nihon",
+    "genre": "Série documental",
+    "episodes_count": 8,
+    "episodes_lenght": 23,
+    "overview": "Ao longo de mais de 50 anos de convivência com alguns dos nomes mais importantes da cultura latino americana Eric Nepomuceno abre pela primeira vez seu ÁLBUM DE MEMÓRIAS, transformando em coletiva sua vivência particular em uma série inédita onde revela histórias, curiosidades e analisa com intimidade a obra de artistas como: Gabriel García Márquez, Oscar Niemeyer, Julio Cortázar, Chico Buarque, Darcy Ribeiro, Jorge Amado, Lygia Fagundes Telles, Augusto Boal, Clarice Lispector, Tom Jobim, Sebastião Salgado, Eduardo Galeano, Astor Piazzolla, Antonio Callado, Leonardo Boff, Rubem Fonseca, além de recordar encontros e conversas com Ondjaki, Fernanda Montenegro e Joan Baez.O espectador irá se apaixonar pelas pessoas deste álbum, conhecer diferentes realidades e sonhar um mundo melhor através da arte e do conhecimento, valorizando a amizade e a memória.",
+
+    "host": ["Eric Nepomuceno"],
+    "director": ["Felipe Nepomuceno"],
+    "cinematographer": ["Felipe Nepomuceno"],
+    "executive_producer": ["Tereza Alvarez"],
+    "producer": ["Lorena Bondarovsky"],
+    "editing": ["Marx Braga"],
+    "ilustrations": ["Guto Nepomuceno"],
+    "music": ["Hamilton de Holanda"],
+    "collor_correction": ["Hebert Marmo"],
+    "sound_design": ["Vinicius Reis"],
+    "productions_companies": ["Nepomuceno Filmes", "Bonde Filmes"]
+  },
+  {
+    "id": 4,
+    "title": "Tiro de Misericórdia",
+    "slug": "tiro_de_misericordia",
+    "image": "/imgs/misericordia_1.jpg",
+    "link": "/movies/onde_e_nihon",
+    "genre": "Curta metragem",
+    "lenght": 17,
+    "overview": "Francisco (Johnny Massaro) acorda na casa de Joana (Isabel Zuaa). É a manhã seguinte à primeira noite do casal. Enquanto tenta entender melhor quem é a mulher com quem passou a noite, Francisco, afobado, vai contando detalhes da sua vida. Joana o escuta com calma. O encontro entre os dois revela aspectos sombrios da biografia do rapaz. Joana oferece a ele uma solução drástica, definitiva e misericordiosa.",
+
+    "director": ["Augusto Barros"],
+    "screenwriter": ["Augusto Barros"],
+    "producer": ["Trem Chique"],
+    "associate_producer": ["Lorena Bondarovsky"]
+  }
+]

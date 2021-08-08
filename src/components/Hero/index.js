@@ -4,8 +4,8 @@ import { Container } from "./styles";
 
 function Hero() {
   return (
-    <Container>
-      <section className="section" id="hero">
+    <Container id="hero">
+      <div>
         <h2 className="title">Entre no</h2>
         <a href="#intro">
           <img
@@ -15,7 +15,7 @@ function Hero() {
           />
         </a>
         <div id="line"></div>
-      </section>
+      </div>
     </Container>
   );
 }
