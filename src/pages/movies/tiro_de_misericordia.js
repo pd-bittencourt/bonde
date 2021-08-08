@@ -93,7 +93,9 @@ function Movie4() {
           {movie.impact_producer && (
             <>
               <p className="details-title">Estrategista de Impacto</p>
-              <p className="crew-details">{movie.impact_strategist}</p>
+              <p className="crew-details">
+                {movie.impact_strategist.join(", ")}
+              </p>
             </>
           )}
           {movie.photographer && (

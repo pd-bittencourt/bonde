@@ -87,13 +87,15 @@ function Movie1() {
           {movie.impact_producer && (
             <>
               <p className="details-title">Produção de Impacto</p>
-              <p className="crew-details">{movie.impact_producer.join(", ")}</p>
+              <p className="crew-details">{movie.impact_producer}</p>
             </>
           )}
           {movie.impact_producer && (
             <>
               <p className="details-title">Estrategista de Impacto</p>
-              <p className="crew-details">{movie.impact_strategist}</p>
+              <p className="crew-details">
+                {movie.impact_strategist.join(", ")}
+              </p>
             </>
           )}
           {movie.photographer && (
