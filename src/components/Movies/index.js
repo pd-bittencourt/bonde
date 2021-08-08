@@ -1,20 +1,5 @@
 import { Container } from "./styles";
 
-// .movie1 {
-//   background-image: url("/imgs/where_is_nihon-3.jpg");
-// }
-
-// .movie2 {
-//   background-image: url("/imgs/as_origens_2.jpg");
-// }
-
-// .movie3 {
-//   background-image: url("/imgs/where_is_nihon-3.jpg");
-// }
-
-// .movie4 {
-//   background-image: url("/imgs/misericordia_1.jpg");
-// }
 const movies = [
   {
     title: "Onde é Nihon?",

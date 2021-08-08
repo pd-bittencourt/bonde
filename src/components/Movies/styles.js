@@ -31,6 +31,7 @@ export const Container = styled.section`
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     align-items: flex-end;
     justify-content: center;
