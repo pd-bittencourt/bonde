@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-import { Container } from "./styles";
+import Container from "./styles";
 import ArrowLeft from "../../components/ui/ArrowLeft";
 
 function Movie3() {
