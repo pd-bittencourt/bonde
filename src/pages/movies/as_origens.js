@@ -4,14 +4,14 @@ import Link from "next/link";
 import { Container } from "./styles";
 import ArrowLeft from "../../components/ui/ArrowLeft";
 
-function Movie1() {
+function Movie2() {
   const [movie, setMovie] = useState([]);
 
   useEffect(() => {
     fetch("/movies.json")
       .then((res) => res.json())
       .then((data) => {
-        const filtered = data[0];
+        const filtered = data[1];
         console.log(filtered);
         setMovie(filtered);
       });
@@ -87,7 +87,7 @@ function Movie1() {
           {movie.impact_producer && (
             <>
               <p className="details-title">Produção de Impacto</p>
-              <p className="crew-details">{movie.impact_producer.join(", ")}</p>
+              <p className="crew-details">{movie.impact_producer}</p>
             </>
           )}
           {movie.impact_producer && (
@@ -162,4 +162,4 @@ function Movie1() {
   );
 }
 
-export default Movie1;
+export default Movie2;

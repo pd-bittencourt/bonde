@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import ArrowLeft from "../ui/ArrowLeft";
 
 import { Container } from "./styles";
 
@@ -27,10 +28,12 @@ function Movies() {
               backgroundImage: `linear-gradient(to bottom, #0000, #0009), url(${movie.image})`,
             }}
           >
-            <Link href={movie.link}>
+            <Link href={`/movies/${movie.slug}`}>
               <a className="movie-content">
                 <h2>{movie.title}</h2>
-                <p>INFO</p>
+                <p>
+                  INFOS <ArrowLeft />
+                </p>
               </a>
             </Link>
           </div>

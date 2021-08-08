@@ -61,6 +61,8 @@ export const Container = styled.section`
     max-width: 700px;
     width: 80%;
     p {
+      display: flex;
+      align-items: center;
       transition: all 0.2s ease;
       opacity: 1;
 
@@ -70,6 +72,13 @@ export const Container = styled.section`
     }
     &:hover p {
       opacity: 1;
+    }
+    svg {
+      fill: ${baseColors.white};
+      transform: rotate(180deg);
+      width: 32px;
+      height: 32px;
+      margin-left: 8px;
     }
   }
 `;
