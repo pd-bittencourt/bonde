@@ -13,7 +13,6 @@ function Movie1() {
       .then((res) => res.json())
       .then((data) => {
         const filtered = data[0];
-        console.log(filtered);
         setMovie(filtered);
       });
   }, []);

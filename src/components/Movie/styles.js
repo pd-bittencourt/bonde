@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { baseColors, breakpoints } from "../../constants/stylesBase";
 
-export const Container = styled.div`
+const Container = styled.div`
   .hero {
     display: flex;
     align-items: center;
@@ -136,3 +136,5 @@ export const Container = styled.div`
     }
   }
 `;
+
+export default Container;

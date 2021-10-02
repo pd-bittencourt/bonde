@@ -4,15 +4,14 @@ import Link from "next/link";
 import Container from "./styles";
 import ArrowLeft from "../../components/ui/ArrowLeft";
 
-function Movie4() {
+function Movie2() {
   const [movie, setMovie] = useState([]);
 
   useEffect(() => {
     fetch("/movies.json")
       .then((res) => res.json())
       .then((data) => {
-        const filtered = data[3];
-        console.log(filtered);
+        const filtered = data[1];
         setMovie(filtered);
       });
   }, []);
@@ -164,4 +163,4 @@ function Movie4() {
   );
 }
 
-export default Movie4;
+export default Movie2;

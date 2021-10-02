@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-import { Container } from "./styles";
+import Container from "./styles";
 import ArrowLeft from "../ui/ArrowLeft";
 
 function Movie() {
@@ -12,7 +12,6 @@ function Movie() {
       .then((res) => res.json())
       .then((data) => {
         const filtered = data.find((e) => (e.id = 1));
-        console.log(filtered);
         setMovie(filtered);
       });
   }, []);

@@ -11,7 +11,6 @@ function Movies() {
     fetch("/movies.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setMovies(data);
       });
   }, []);
@@ -28,7 +27,7 @@ function Movies() {
               backgroundImage: `linear-gradient(to bottom, #0000, #0009), url(${movie.image})`,
             }}
           >
-            <Link href={`/movies/${movie.slug}`}>
+            <Link href={`/movies/${movie.id}`}>
               <a className="movie-content">
                 <h2>{movie.title}</h2>
                 <p>

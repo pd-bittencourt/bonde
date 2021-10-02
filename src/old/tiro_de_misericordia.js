@@ -4,15 +4,14 @@ import Link from "next/link";
 import Container from "./styles";
 import ArrowLeft from "../../components/ui/ArrowLeft";
 
-function Movie3() {
+function Movie4() {
   const [movie, setMovie] = useState([]);
 
   useEffect(() => {
     fetch("/movies.json")
       .then((res) => res.json())
       .then((data) => {
-        const filtered = data[2];
-        console.log(filtered);
+        const filtered = data[3];
         setMovie(filtered);
       });
   }, []);
@@ -34,8 +33,7 @@ function Movie3() {
         <div>
           <h1>{movie.title}</h1>
           <p>
-            {movie.genre} • {movie.episodes_count} eps • {movie.episodes_lenght}{" "}
-            min
+            {movie.genre} • {movie.lenght} min
           </p>
         </div>
       </div>
@@ -165,4 +163,4 @@ function Movie3() {
   );
 }
 
-export default Movie3;
+export default Movie4;
