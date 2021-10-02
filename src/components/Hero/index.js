@@ -10,7 +10,7 @@ function Hero() {
         <a href="#intro">
           <img
             id="logo"
-            src="imgs/logo/logo-bonde-light.svg"
+            src="imgs/logo/logo-bonde_filmes-bonde-negative.svg"
             alt="logo Bonde Filmes"
           />
         </a>

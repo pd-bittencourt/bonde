@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Onde é Nihon?",
+    "title": "Onde é o Nihon?",
     "image": "/imgs/where_is_nihon-3.jpg",
-    "link": "/movies/onde_e_nihon",
+    "link": "/movies/onde_e_o_nihon",
     "genre": "Documentário",
     "overview": "Ao deixar sua terra natal, a documentarista Inara Chayamiti começa a investigar sua identidade, marcada pela saga da migração nipo-brasileira. Ela embarca em uma jornada agridoce com sua família em busca de sua herança cultural, e ao mesmo tempo, descobre o que significa pertencer “no meio”: vista como japonesa demais no Brasil, pouco japonesa na comunidade, nada japonesa no Japão e agora, uma forasteira nos Países Baixos.",
     "crew": {
@@ -12,7 +12,7 @@
       "impact_producer": ["Luiza de Paiva", "Inara Chayamiti"],
       "impact_strategist": ["João Martinho"],
       "photographer": ["Kiyoshi Chayamiti"],
-      "coproduction": ["Chayamiti Filmes"]
+      "coproduction": ["Chayamiti Films"]
     }
   },
   {
