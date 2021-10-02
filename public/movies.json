@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Onde é Nihon?",
-    "slug": "onde_e_nihon",
+    "title": "Onde é o Nihon?",
+    "slug": "onde_e_o_nihon",
     "image": "/imgs/where_is_nihon-3.jpg",
     "link": "/movies/onde_e_nihon",
     "genre": "Documentário",
@@ -14,7 +14,7 @@
     "impact_producer": ["Luiza de Paiva", "Inara Chayamiti"],
     "impact_strategist": ["João Martinho"],
     "photographer": ["Kiyoshi Chayamiti"],
-    "coproduction": ["Chayamiti Filmes"]
+    "coproduction": ["Chayamiti Films"]
   },
   {
     "id": 2,

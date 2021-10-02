@@ -27,7 +27,10 @@ function Footer() {
         </div>
       </div>
       <FooterLogo>
-        <img src="/imgs/logo/logo-bonde-dark.svg" alt="logo Bonde Filmes" />
+        <img
+          src="/imgs/logo/logo-bonde_filmes-positive.svg"
+          alt="logo Bonde Filmes"
+        />
       </FooterLogo>
     </FooterContainer>
   );
