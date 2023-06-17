@@ -48,7 +48,7 @@ function Movie1() {
           </div>
 
           <div>
-            <h2>Ficha Técnica</h2>
+            <h2>Equipe</h2>
 
             {movie.host && (
               <>
