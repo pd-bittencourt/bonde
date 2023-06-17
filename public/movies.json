@@ -13,13 +13,21 @@
     "director": ["Inara Chayamiti"],
     "producer": ["Lorena Bondarovsky e Inara Chayamiti"],
     "executive_producer": ["Joao Martinho"],
-    "screenwriter": ["Inara Chayamiti e Joao Martinho"],
+    "screenwriter": ["Inara Chayamiti e João Martinho"],
     "editing": ["Inara Chayamiti"],
     "director_of_photography": ["Inara Chayamiti e Kiyoshi Chayamiti"],
     "music": ["Pedro Sodré e Rudah Guedes"],
     "sound_mixing": ["Paulo Oliveira Souza"],
-    "coproduction": ["Chayamiti Films"],
-    "design": ["Flávio Reis"]
+    "coproduction": ["Sarah Kimura e Emilia Chayamiti"],
+    "design": ["Flávio Reis"],
+    "kintsugi": ["Taku Nakano"],
+    "impact_strategy": ["João Martinho"],
+    "impact_production_distribution": ["Inara Chayamiti"],
+    "impact_production": ["Luiza de Paiva"],
+    "consultant": ["Cíntia Vilani"],
+    "drone": [
+      "Nobuhiko Nagae (Makurazaki), Toninho Torres (Altinópolis) e Lucas Mahler Assunção Valentino (Conquista)"
+    ]
   },
   {
     "id": 2,

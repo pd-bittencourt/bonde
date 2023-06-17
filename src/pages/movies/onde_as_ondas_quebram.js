@@ -118,6 +118,57 @@ function Movie1() {
                 <p className="crew-details">{movie.design}</p>
               </>
             )}
+
+            {/*  */}
+
+            {movie.kintsugi && (
+              <>
+                <p className="details-title">Kintsugi</p>
+                <p className="crew-details">{movie.kintsugi}</p>
+              </>
+            )}
+            {movie.impact_strategy && (
+              <>
+                <p className="details-title">Estratégia de Impacto</p>
+                <p className="crew-details">{movie.impact_strategy}</p>
+              </>
+            )}
+            {movie.impact_production_distribution && (
+              <>
+                <p className="details-title">
+                  Produção e Distribuição de Impacto
+                </p>
+                <p className="crew-details">
+                  {movie.impact_production_distribution}
+                </p>
+              </>
+            )}
+            {movie.impact_production && (
+              <>
+                <p className="details-title">Produção de Impacto</p>
+                <p className="crew-details">{movie.impact_production}</p>
+              </>
+            )}
+            {movie.consultant && (
+              <>
+                <p className="details-title">Consultoria</p>
+                <p className="crew-details">{movie.consultant}</p>
+              </>
+            )}
+            {movie.drone && (
+              <>
+                <p className="details-title">Imagens aéreas</p>
+                <p className="crew-details">{movie.drone}</p>
+              </>
+            )}
+
+            {/* <h2>Equipe na plantação de café</h2>
+            {movie.drone && (
+              <>
+                <p className="details-title">Imagens aéreas</p>
+                <p className="crew-details">{movie.drone}</p>
+              </>
+            )} */}
           </div>
         </main>
         <footer>
