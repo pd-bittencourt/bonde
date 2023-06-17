@@ -10,8 +10,8 @@ function Movie1() {
 
   useEffect(() => {
     fetch("/movies.json")
-      .then((res) => res.json())
-      .then((data) => {
+      .then(res => res.json())
+      .then(data => {
         const filtered = data[0];
         console.log(filtered);
         setMovie(filtered);
@@ -30,7 +30,7 @@ function Movie1() {
         <div
           className="hero"
           style={{
-            backgroundImage: `linear-gradient(to bottom, #0000, #0009), url(${movie.image})`,
+            backgroundImage: `linear-gradient(to bottom, #0000, #0009), url(${movie.image_hero})`,
           }}
         >
           <div>
@@ -62,96 +62,60 @@ function Movie1() {
                 <p className="crew-details">{movie.director}</p>
               </>
             )}
-            {movie.screenwriter && (
-              <>
-                <p className="details-title">Roteiro</p>
-                <p className="crew-details">{movie.screenwriter}</p>
-              </>
-            )}
-            {movie.executive_producer && (
-              <>
-                <p className="details-title">Produtor executivo</p>
-                <p className="crew-details">{movie.executive_producer}</p>
-              </>
-            )}
             {movie.producer && (
               <>
                 <p className="details-title">Produção</p>
                 <p className="crew-details">{movie.producer}</p>
               </>
             )}
-            {movie.associate_producer && (
+            {movie.executive_producer && (
               <>
-                <p className="details-title">Produtora Associada</p>
-                <p className="crew-details">{movie.associate_producer}</p>
+                <p className="details-title">Produção executiva</p>
+                <p className="crew-details">{movie.executive_producer}</p>
               </>
             )}
-            {movie.impact_producer && (
+            {movie.screenwriter && (
               <>
-                <p className="details-title">Produção de Impacto</p>
-                <p className="crew-details">
-                  {movie.impact_producer.join(", ")}
-                </p>
+                <p className="details-title">Roteiro</p>
+                <p className="crew-details">{movie.screenwriter}</p>
               </>
             )}
-            {movie.impact_producer && (
-              <>
-                <p className="details-title">Estrategista de Impacto</p>
-                <p className="crew-details">
-                  {movie.impact_strategist.join(", ")}
-                </p>
-              </>
-            )}
-            {movie.photographer && (
-              <>
-                <p className="details-title">Direção de fotografia </p>
-                <p className="crew-details">{movie.photographer}</p>
-              </>
-            )}
-
             {movie.editing && (
               <>
                 <p className="details-title">Montagem</p>
                 <p className="crew-details">{movie.editing}</p>
               </>
             )}
-            {movie.ilustrations && (
+
+            {movie.director_of_photography && (
               <>
-                <p className="details-title">Ilustrações</p>
-                <p className="crew-details">{movie.ilustrations}</p>
+                <p className="details-title">Direção de fotografia</p>
+                <p className="crew-details">{movie.director_of_photography}</p>
               </>
             )}
             {movie.music && (
               <>
-                <p className="details-title">Trilha Sonora</p>
+                <p className="details-title">Trilha Sonora original</p>
                 <p className="crew-details">{movie.music}</p>
               </>
             )}
-            {movie.collor_correction && (
+            {movie.sound_mixing && (
               <>
-                <p className="details-title">Finalização de Imagem</p>
-                <p className="crew-details">{movie.collor_correction}</p>
-              </>
-            )}
-            {movie.sound_design && (
-              <>
-                <p className="details-title">Finalização de Som</p>
-                <p className="crew-details">{movie.sound_design}</p>
-              </>
-            )}
-
-            {movie.productions_companies && (
-              <>
-                <p className="details-title">Coprodução</p>
-                <p className="crew-details">
-                  {movie.productions_companies.join(", ")}
-                </p>
+                <p className="details-title">Mixagem e pós-produção de som</p>
+                <p className="crew-details">{movie.sound_mixing}</p>
               </>
             )}
             {movie.coproduction && (
               <>
-                <p className="details-title">Coprodução</p>
+                <p className="details-title">Produção local</p>
                 <p className="crew-details">{movie.coproduction}</p>
+              </>
+            )}
+
+            {movie.design && (
+              <>
+                <p className="details-title">Design Gráfico</p>
+                <p className="crew-details">{movie.design}</p>
               </>
             )}
           </div>
